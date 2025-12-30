@@ -1,48 +1,10 @@
 * {
+    margin: 0px;
+    padding: 0px;
     box-sizing: border-box;
 }
 
 /* tag */
-body,
-h1,
-h2,
-h3,
-h4,
-h5,
-h6,
-p,
-hr,
-br,
-button,
-nav,
-ul,
-ol,
-li,
-a,
-div,
-section,
-img,
-i,
-input,
-label,
-form,
-datalist,
-option,
-table,
-th,
-tr,
-td,
-thead,
-tbody,
-tfoot,
-caption,
-video,
-audio,
-footer {
-    margin: 0;
-    padding: 0;
-}
-
 a {
     text-decoration: none;
 }
@@ -63,12 +25,6 @@ a {
 /* text */
 .tdn {
     text-decoration: none;
-}
-
-/* row */
-.row {
-    display: flex;
-    flex-wrap: wrap;
 }
 
 /* coursor */
@@ -440,6 +396,12 @@ a {
     flex-basis: auto;
 }
 
+/* row */
+.row {
+    display: flex;
+    flex-wrap: wrap;
+}
+
 /* justify content */
 .jcc {
     justify-content: center;
@@ -629,7 +591,11 @@ a {
     width: calc(16.66666667% - 20px);
 }
 
-.col {
+.col-g {
+    flex: 1 0 auto;
+}
+
+.col-ng {
     flex: 0 0 auto;
 }
 
@@ -1236,10 +1202,6 @@ a {
         width: calc(16.66666667% - 20px);
     }
 
-    .col {
-        flex: 0 0 auto;
-    }
-
     .col-1-xxs {
         flex: 0 0 auto;
         width: 8.33333333%;
@@ -1842,10 +1804,6 @@ a {
 
     .row-col-6-g-24-xs>* {
         width: calc(16.66666667% - 20px);
-    }
-
-    .col {
-        flex: 0 0 auto;
     }
 
     .col-1-xs {
@@ -2457,10 +2415,6 @@ a {
         width: calc(16.66666667% - 20px);
     }
 
-    .col {
-        flex: 0 0 auto;
-    }
-
     .col-1-sm {
         flex: 0 0 auto;
         width: 8.33333333%;
@@ -3068,10 +3022,6 @@ a {
 
     .row-col-6-g-24-md>* {
         width: calc(16.66666667% - 20px);
-    }
-
-    .col {
-        flex: 0 0 auto;
     }
 
     .col-1-md {
@@ -3683,10 +3633,6 @@ a {
         width: calc(16.66666667% - 20px);
     }
 
-    .col {
-        flex: 0 0 auto;
-    }
-
     .col-1-lg {
         flex: 0 0 auto;
         width: 8.33333333%;
@@ -4294,10 +4240,6 @@ a {
 
     .row-col-6-g-24-xl>* {
         width: calc(16.66666667% - 20px);
-    }
-
-    .col {
-        flex: 0 0 auto;
     }
 
     .col-1-xl {
@@ -4909,10 +4851,6 @@ a {
         width: calc(16.66666667% - 20px);
     }
 
-    .col {
-        flex: 0 0 auto;
-    }
-
     .col-1-xxl {
         flex: 0 0 auto;
         width: 8.33333333%;
@@ -5522,10 +5460,6 @@ a {
         width: calc(16.66666667% - 20px);
     }
 
-    .col {
-        flex: 0 0 auto;
-    }
-
     .col-1-3xl {
         flex: 0 0 auto;
         width: 8.33333333%;
@@ -6133,10 +6067,6 @@ a {
 
     .row-col-6-g-24-4xl>* {
         width: calc(16.66666667% - 20px);
-    }
-
-    .col {
-        flex: 0 0 auto;
     }
 
     .col-1-4xl {
